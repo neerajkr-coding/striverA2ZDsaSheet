@@ -27,7 +27,7 @@ public class Rotate_Array_By_D_Steps {
     }
 
     static void reverseSubArray(int[] arr, int start, int end) {
-        while(start < end) {
+        while (start < end) {
             int temp = arr[start];
             arr[start] = arr[end];
             arr[end] = temp;
